@@ -7,7 +7,7 @@ const App = () => {
     <>
       <h1>Testing deploy</h1>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/portfolio/' element={<Home />} />
       </Routes>
     </>
   );
