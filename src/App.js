@@ -5,9 +5,10 @@ import { Home } from './pages';
 const App = () => {
   return (
     <>
-      <Routes>
+      <h1>Testing deploy</h1>
+      {/* <Routes>
         <Route path='/' element={<Home />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 };
