@@ -5,7 +5,6 @@ import { Home } from './pages';
 const App = () => {
   return (
     <>
-      <h1>Testing deploy</h1>
       <Routes>
         <Route path='/portfolio/' element={<Home />} />
       </Routes>
