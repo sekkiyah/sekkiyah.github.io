@@ -6,16 +6,14 @@ const NavigationBar = () => {
     <>
       <Navbar className='mb-5'>
         <Container>
-          <Navbar.Brand>
-            Seth Hinshaw{' '}
-            {/* <span className='socials'>
-              <a href='https://www.linkedin.com/in/seth-hinshaw/' target='_blank'>
-                <img src='../images/linkedin-icon.png' alt='li' />
-              </a>
-              <a href='https://github.com/sekkiyah' target='_blank'>
-                <img src='../images/github.png' alt='gh' />
-              </a>
-            </span> */}
+          <Navbar.Brand className='d-flex align-items-center'>
+            <p className='m-0 fst-italic fw-light'>{'<SH / >'}</p>
+            <a href='https://www.linkedin.com/in/seth-hinshaw/' target='_blank' className='mx-2 mb-1'>
+              <img src='/images/logos/linkedin-icon.png' alt='li' width='20' height='20' />
+            </a>
+            <a href='https://github.com/sekkiyah' target='_blank' className='mb-1'>
+              <img src='/images/logos/github.png' alt='gh' width='20' height='20' />
+            </a>
           </Navbar.Brand>
           <Nav>
             <Nav.Link>Home</Nav.Link>
