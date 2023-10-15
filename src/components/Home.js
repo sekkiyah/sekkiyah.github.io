@@ -1,10 +1,11 @@
 import React from 'react';
+import { NavigationBar } from './';
 
 const Home = () => {
   return (
     <>
-      <h1>Portfolio Site</h1>
-      <p>Testing</p>
+      <NavigationBar />
+      <h1 className='text-center'>Coming soon</h1>
     </>
   );
 };
